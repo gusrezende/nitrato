@@ -1,0 +1,9 @@
+# executáveis gerados pelo make
+nitrato
+nitrato.exe
+teste_estruturas
+teste_estruturas.exe
+*.o
+
+# ranking local de cada jogador
+ranking.txt

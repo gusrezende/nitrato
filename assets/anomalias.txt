@@ -1,0 +1,91 @@
+# anomalias.txt — as anomalias do filme.
+#
+#   anomalia <pasta> <descrição>
+#       começa uma anomalia. <pasta> é a pasta dentro de assets/anomalias/ com
+#       os quadros alterados; a descrição aparece no dossiê quando ela é achada.
+#
+#   quadro <número> <x> <y> <largura> <altura>
+#       um quadro em que a anomalia pode aparecer e a área clicável dele, em
+#       pixels da imagem. O arquivo é assets/anomalias/<pasta>/frame_NNNN.png,
+#       com o mesmo número do quadro normal que ele substitui.
+#
+#   area <x> <y> <largura> <altura>
+#       mais uma área clicável para o quadro da linha anterior (até 4 por quadro).
+#
+# A cada partida o jogo sorteia quais anomalias entram e em qual dos quadros
+# cadastrados cada uma fica (nunca duas no mesmo quadro).
+# Salve este arquivo em UTF-8.
+
+anomalia 1_sem_cauda Bicho da direita sem cauda
+quadro 1   417  298   75   71
+quadro 2   419  300   71   71
+quadro 3   422  300   77   71
+quadro 4   420  300   77   71
+quadro 5   415  300   82   71
+quadro 6   410  299   85   71
+quadro 7   408  298   87   71
+quadro 8   408  298   90   71
+quadro 9   408  298   93   71
+quadro 10  408  305   88   71
+quadro 11  415  300   80   71
+
+anomalia 2_rostos Os rostos se deformaram
+quadro 11  245  248  102   85
+area       521  269   71   71
+
+anomalia 3_mao Mão errada no personagem
+quadro 1   249  305   71   71
+quadro 2   248  303   71   71
+quadro 3   244  302   71   71
+quadro 4   250  304   71   71
+quadro 5   251  305   71   71
+quadro 6   250  307   71   71
+quadro 7   245  313   71   71
+quadro 8   255  302   71   71
+quadro 9   250  293   71   71
+quadro 10  252  298   71   71
+quadro 11  250  305   71   71
+
+anomalia 4_sem_luvas Bicho da direita sem luvas
+quadro 1   560  297   71   71
+quadro 2   560  296   71   71
+quadro 3   560  295   71   71
+quadro 4   560  295   71   71
+quadro 5   560  296   71   71
+quadro 6   560  295   71   71
+quadro 7   560  296   71   71
+quadro 8   559  295   71   71
+quadro 9   563  295   71   71
+quadro 10  563  297   71   71
+quadro 11  558  296   71   71
+
+anomalia 5_caracol Um caracol no chão
+quadro 1   403  343  127   82
+area       686  370   71   71
+quadro 2   362  305   72   73
+area       615  370   71   71
+area       274  237   71   71
+quadro 3   295  245   71   93
+area       551  370   71   71
+quadro 4   297  250   88  102
+area       478  370   78   71
+quadro 5   470  364   71   71
+quadro 6   484  354   71   71
+quadro 7   508  362   71   71
+quadro 8   525  375   71   71
+quadro 9   510  364   71   71
+quadro 10  496  374   71   71
+quadro 11  460  370   88   71
+
+anomalia 6_olhos Olhos de gente no personagem
+quadro 1   277  245   78   71
+quadro 2   275  240   77   71
+quadro 3   275  236   78   71
+quadro 4   277  240   77   71
+quadro 5   277  245   77   71
+quadro 6   277  247   77   71
+quadro 7   277  246   77   71
+quadro 8   275  235   78   71
+quadro 9   277  230   77   71
+quadro 10  277  240   78   71
+quadro 11  277  243   77   71
